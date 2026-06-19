@@ -212,16 +212,16 @@ nav a:hover{
     width: 100%;
     padding: 14px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    background: #f9f9f9;
+    background: #3b73af;
     cursor: pointer;
     transition: 0.2s;
-    color: #1e293b; /* Cor escura */
+    color: #ffffff; /* Cor escura */
 }
 
 .quiz-opt:hover{
-    background: #e9ecef;
+    border-color: #13e2fd;
 }
 
 /* BOTÕES */
