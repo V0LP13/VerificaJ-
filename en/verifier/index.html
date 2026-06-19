@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Verifier | VerifyNow</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                Verify <span>Now</span>
+            </div>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../types/index.html">Types</a>
+                <a href="../ai/index.html">AI</a>
+                <a href="../identify/index.html">Identify</a>
+                <a href="../quiz/index.html">Quiz</a>
+                <a href="index.html">Verifier</a>
+                <button id="btn-idioma" class="linguagem-btn" onclick="window.location.href='../../pt/verificador/index.html'">
+                    <img src="https://i.ibb.co/3VxTMSQ/bandeirafinalcanseideeditaressabandeira-1.png" alt="pt" id="img-bandeira">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <section id="exemplos" class="section-padding animate-up">
+                <h2 class="section-title">AI Verifier with GROK</h2>
+                
+                <div class="verify-sim">
+                    <h3>Test a headline</h3>
+                    <p style="margin-bottom: 20px; color: #64748B;">Our AI will analyze if the news has signs of misinformation based on heuristic patterns.</p>
+                    <input type="text" id="input-verify" placeholder="Type a headline here...">
+                    <button class="btn-main" onclick="simularVerificacao()">Analyze with AI</button>
+                    
+                    <div id="res-verify"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 VerifyNow - Project 1DS3 Etec Drc</p>
+        <p style="font-size: 0.85rem; margin-top: 10px; opacity: 0.6;">Developed for educational purposes and to combat misinformation.</p>
+    </footer>
+
+    <script>var idiomaAtual = "en";</script>
+    <script src="/en/jsen/scripten.js"></script>
+</body>
+</html>
