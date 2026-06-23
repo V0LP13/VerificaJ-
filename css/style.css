@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F8FAFC;
-    color: #1e293b; /* CORRIGIDO: Cor escura para visibilidade total */
+    color: #1e293b; /* CORRIGIDO: Cor escura para visibilidade totAl */
     line-height: 1.6;
 }
 
@@ -114,7 +114,7 @@ nav a:hover{
     color: #D62828;
 }
 
-/* Para evitar scroll na home */
+
 .no-scroll {
     overflow: hidden;
     height: 100vh;
