@@ -111,7 +111,7 @@ function validar(escolha) {
 
 
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 
 async function simularVerificacao() {
