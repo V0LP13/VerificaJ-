@@ -7,11 +7,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F8FAFC;
-    color: #1e293b; /* CORRIGIDO: Cor escura para visibilidade totAl */
+    color: #1e293b; 
     line-height: 1.6;
 }
 
-/* HEADER */
+
 
 header{
     background-color: rgba(255,255,255,0.95);
@@ -93,14 +93,14 @@ nav a:hover{
     justify-content: center;
     text-align: center;
     color: white;
-    margin-top: 0; /* Ajustado para fullscreen total */
+    margin-top: 0; 
     padding: 20px;
 }
 
 .hero h1{
     font-size: 3.5rem;
     margin-bottom: 10px;
-    color: white; /* Garante que o título do hero seja branco */
+    color: white;
 }
 
 .hero p{
@@ -120,12 +120,12 @@ nav a:hover{
     height: 100vh;
 }
 
-/* Espaçamento para páginas internas (compensar header fixo) */
+
 .page-content {
     padding-top: 100px;
 }
 
-/* CONTAINER */
+
 
 .container{
     max-width: 1000px;
@@ -141,10 +141,10 @@ nav a:hover{
     text-align: center;
     margin-bottom: 40px;
     font-size: 2rem;
-    color: #1e293b; /* Cor escura */
+    color: #1e293b; 
 }
 
-/* CARDS */
+
 
 .grid{
     display: grid;
@@ -159,7 +159,7 @@ nav a:hover{
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     transition: 0.3s;
     border: 1px solid #f1f1f1;
-    color: #1e293b; /* Cor escura */
+    color: #1e293b;
 }
 
 .card:hover{
@@ -174,7 +174,7 @@ nav a:hover{
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    color: #1e293b; /* Cor escura */
+    color: #1e293b; 
 }
 
 .step{
@@ -196,7 +196,7 @@ nav a:hover{
     font-weight: bold;
 }
 
-/* QUIZ */
+
 
 .quiz-box{
     background: white;
@@ -204,7 +204,7 @@ nav a:hover{
     border-radius: 16px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    color: #1e293b; /* Cor escura */
+    color: #1e293b; 
 }
 
 .quiz-opt{
@@ -244,14 +244,14 @@ nav a:hover{
     transform: translateY(-2px);
 }
 
-/* ANIMAÇÕES - CORRIGIDO: Removido opacity 0 para garantir visibilidade */
+
 .animate-up{
-    opacity: 1; /* Garantido visível */
+    opacity: 1; 
     transform: translateY(0);
     transition: all 0.8s ease-out;
 }
 
-/* VERIFICADOR */
+
 
 
 
@@ -283,7 +283,7 @@ nav a:hover{
     color: #1e293b;
 }
 
-/* Ajusta espaçamentos internos */
+
 
 #res-verify h3,
 #res-verify h4{
@@ -305,7 +305,7 @@ nav a:hover{
     margin-bottom: 4px;
 }
 
-/* Card gerado pela IA */
+
 
 .detector-card{
     display: flex;
@@ -346,7 +346,7 @@ footer{
     margin-top: 50px;
 }
 
-/* RESPONSIVO */
+
 
 @media (max-width:768px){
     .nav-container{
