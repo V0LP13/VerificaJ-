@@ -1,4 +1,3 @@
-// O idiomaAtual é definido diretamente no HTML de cada página (pt ou en)
 
 function verificarScroll() {
     var elementos = document.querySelectorAll('.animate-up');
@@ -13,9 +12,7 @@ function verificarScroll() {
 window.addEventListener('scroll', verificarScroll);
 window.addEventListener('load', verificarScroll);
 
-/* =========================
-   QUIZ
-========================= */
+
 
 let perguntasPT = [
     {
@@ -80,9 +77,7 @@ let perguntas =
         ? perguntasEN
         : perguntasPT;
 
-/* =========================
-   QUIZ FUNCTIONS
-========================= */
+
 
 function proximaPergunta() {
     atual++;
@@ -140,12 +135,8 @@ function validar(escolha) {
     document.getElementById('opcoes').innerHTML = "";
 }
 
-/* =========================
-   AI VERIFIER
-========================= */
 
-// COLOQUE SUA CHAVE AQUI
-const API_KEY = "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";
+const API_KEY = "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";
 
 async function simularVerificacao() {
 
