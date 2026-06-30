@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Alerta Digital | VerificaJá</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                Verifica <span>Já</span>
+            </div>
+            <nav>
+                <a href="../../index.html">Início</a>
+                <a href="../tipos/index.html">Tipos</a>
+                <a href="../ia/index.html">IA</a>
+                <a href="../identificar/index.html">Identificar</a>
+                <a href="index.html">Quiz</a>
+                <a href="../verificador/index.html">Verificador</a>
+                <button id="btn-idioma" class="linguagem-btn" onclick="window.location.href='../../en/quiz/index.html'">
+                    <img src="https://i.ibb.co/YBkmxCxJ/download.png" alt="en" id="img-bandeira">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <section id="quiz" class="section-padding animate-up">
+                <h2 class="section-title">Desafio Alerta Digital</h2>
+                <div class="quiz-box">
+                    <div id="quiz-content">
+                        <p id="pergunta" style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600;">Você está pronto para testar seus conhecimentos?</p>
+                        <div id="opcoes"></div>
+                        <button id="btn-quiz" class="btn-main" onclick="proximaPergunta()">Iniciar Quiz</button>
+                    </div>
+                    <p id="feedback" style="margin-top: 20px; font-weight: bold; font-size: 1.1rem;"></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 VerificaJá - Projeto 1DS3 Etec Drc</p>
+        <p style="font-size: 0.85rem; margin-top: 10px; opacity: 0.6;">Desenvolvido para fins educativos e combate à desinformação.</p>
+    </footer>
+
+    <script>var idiomaAtual = "pt";</script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

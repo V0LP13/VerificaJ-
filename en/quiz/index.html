@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Alert Quiz | VerifyNow</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                Verify <span>Now</span>
+            </div>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../types/index.html">Types</a>
+                <a href="../ai/index.html">AI</a>
+                <a href="../identify/index.html">Identify</a>
+                <a href="index.html">Quiz</a>
+                <a href="../verifier/index.html">Verifier</a>
+                <button id="btn-idioma" class="linguagem-btn" onclick="window.location.href='../../pt/quiz/index.html'">
+                    <img src="https://i.ibb.co/3VxTMSQ/bandeirafinalcanseideeditaressabandeira-1.png" alt="pt" id="img-bandeira">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <section id="quiz" class="section-padding animate-up">
+                <h2 class="section-title">Digital Alert Challenge</h2>
+                <div class="quiz-box">
+                    <div id="quiz-content">
+                        <p id="pergunta" style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600;">Are you ready to test your knowledge?</p>
+                        <div id="opcoes"></div>
+                        <button id="btn-quiz" class="btn-main" onclick="proximaPergunta()">Start Quiz</button>
+                    </div>
+                    <p id="feedback" style="margin-top: 20px; font-weight: bold; font-size: 1.1rem;"></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 VerifyNow - Project 1DS3 Etec Drc</p>
+        <p style="font-size: 0.85rem; margin-top: 10px; opacity: 0.6;">Developed for educational purposes and to combat misinformation.</p>
+    </footer>
+
+    <script>var idiomaAtual = "en";</script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>
